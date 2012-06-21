@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E6849161593727B00EE3DDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6849151593727B00EE3DDE /* UIKit.framework */; };
+		7E6849181593727B00EE3DDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6849171593727B00EE3DDE /* Foundation.framework */; };
+		7E68491A1593727B00EE3DDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6849191593727B00EE3DDE /* CoreGraphics.framework */; };
+		7E6849201593727B00EE3DDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E68491E1593727B00EE3DDE /* InfoPlist.strings */; };
+		7E6849221593727B00EE3DDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6849211593727B00EE3DDE /* main.m */; };
+		7E6849261593727B00EE3DDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6849251593727B00EE3DDE /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E6849111593727B00EE3DDE /* jCalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jCalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6849151593727B00EE3DDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E6849171593727B00EE3DDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E6849191593727B00EE3DDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E68491D1593727B00EE3DDE /* jCalendarView-Info.plist */ = {isa = PBXFileReference; path = "jCalendarView-Info.plist"; sourceTree = "<group>"; };
+		7E68491F1593727B00EE3DDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E6849211593727B00EE3DDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E6849231593727B00EE3DDE /* jCalendarView-Prefix.pch */ = {isa = PBXFileReference; path = "jCalendarView-Prefix.pch"; sourceTree = "<group>"; };
+		7E6849241593727B00EE3DDE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E6849251593727B00EE3DDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E68490E1593727B00EE3DDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6849161593727B00EE3DDE /* UIKit.framework in Frameworks */,
+				7E6849181593727B00EE3DDE /* Foundation.framework in Frameworks */,
+				7E68491A1593727B00EE3DDE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E6849061593727B00EE3DDE = {
+			isa = PBXGroup;
+			children = (
+				7E68491B1593727B00EE3DDE /* jCalendarView */,
+				7E6849141593727B00EE3DDE /* Frameworks */,
+				7E6849121593727B00EE3DDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E6849121593727B00EE3DDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E6849111593727B00EE3DDE /* jCalendarView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E6849141593727B00EE3DDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E6849151593727B00EE3DDE /* UIKit.framework */,
+				7E6849171593727B00EE3DDE /* Foundation.framework */,
+				7E6849191593727B00EE3DDE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E68491B1593727B00EE3DDE /* jCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				7E6849241593727B00EE3DDE /* AppDelegate.h */,
+				7E6849251593727B00EE3DDE /* AppDelegate.m */,
+				7E68491C1593727B00EE3DDE /* Supporting Files */,
+			);
+			path = jCalendarView;
+			sourceTree = "<group>";
+		};
+		7E68491C1593727B00EE3DDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E68491D1593727B00EE3DDE /* jCalendarView-Info.plist */,
+				7E68491E1593727B00EE3DDE /* InfoPlist.strings */,
+				7E6849211593727B00EE3DDE /* main.m */,
+				7E6849231593727B00EE3DDE /* jCalendarView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E6849101593727B00EE3DDE /* jCalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6849291593727B00EE3DDE /* Build configuration list for PBXNativeTarget "jCalendarView" */;
+			buildPhases = (
+				7E68490D1593727B00EE3DDE /* Sources */,
+				7E68490E1593727B00EE3DDE /* Frameworks */,
+				7E68490F1593727B00EE3DDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jCalendarView;
+			productName = jCalendarView;
+			productReference = 7E6849111593727B00EE3DDE /* jCalendarView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E6849081593727B00EE3DDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7E68490B1593727B00EE3DDE /* Build configuration list for PBXProject "jCalendarView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E6849061593727B00EE3DDE;
+			productRefGroup = 7E6849121593727B00EE3DDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E6849101593727B00EE3DDE /* jCalendarView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E68490F1593727B00EE3DDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6849201593727B00EE3DDE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E68490D1593727B00EE3DDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6849221593727B00EE3DDE /* main.m in Sources */,
+				7E6849261593727B00EE3DDE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E68491E1593727B00EE3DDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E68491F1593727B00EE3DDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E6849271593727B00EE3DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E6849281593727B00EE3DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E68492A1593727B00EE3DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jCalendarView/jCalendarView-Prefix.pch";
+				INFOPLIST_FILE = "jCalendarView/jCalendarView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E68492B1593727B00EE3DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jCalendarView/jCalendarView-Prefix.pch";
+				INFOPLIST_FILE = "jCalendarView/jCalendarView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E68490B1593727B00EE3DDE /* Build configuration list for PBXProject "jCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6849271593727B00EE3DDE /* Debug */,
+				7E6849281593727B00EE3DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6849291593727B00EE3DDE /* Build configuration list for PBXNativeTarget "jCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E68492A1593727B00EE3DDE /* Debug */,
+				7E68492B1593727B00EE3DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E6849081593727B00EE3DDE /* Project object */;
+}
