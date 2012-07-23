@@ -7,25 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E1FC91F1598BE3400B626D4 /* jCheckinsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1FC91E1598BE3400B626D4 /* jCheckinsViewController.m */; };
+		7E1FC94B1598D8B900B626D4 /* jTableViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1FC94A1598D78500B626D4 /* jTableViewControllerViewController.m */; };
+		7E560EE31594F50C00D2D26C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E560EE21594F50C00D2D26C /* SystemConfiguration.framework */; };
+		7E560EE41594F52000D2D26C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E560EDF1594F48800D2D26C /* Reachability.m */; };
+		7E560F041594FAE400D2D26C /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E560EEC1594FAE400D2D26C /* Facebook.m */; };
+		7E560F051594FAE400D2D26C /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7E560EEF1594FAE400D2D26C /* FBDialog.bundle */; };
+		7E560F061594FAE400D2D26C /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E560EF11594FAE400D2D26C /* FBDialog.m */; };
+		7E560F071594FAE400D2D26C /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E560EF31594FAE400D2D26C /* FBLoginDialog.m */; };
+		7E560F081594FAE400D2D26C /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E560EF51594FAE400D2D26C /* FBRequest.m */; };
+		7E560F091594FAE400D2D26C /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E560EF91594FAE400D2D26C /* NSObject+SBJSON.m */; };
+		7E560F0A1594FAE400D2D26C /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E560EFB1594FAE400D2D26C /* NSString+SBJSON.m */; };
+		7E560F0B1594FAE400D2D26C /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E560EFD1594FAE400D2D26C /* SBJSON.m */; };
+		7E560F0C1594FAE400D2D26C /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E560EFF1594FAE400D2D26C /* SBJsonBase.m */; };
+		7E560F0D1594FAE400D2D26C /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E560F011594FAE400D2D26C /* SBJsonParser.m */; };
+		7E560F0E1594FAE400D2D26C /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E560F031594FAE400D2D26C /* SBJsonWriter.m */; };
+		7E560F131594FB1C00D2D26C /* Facebook+Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E560F121594FB0800D2D26C /* Facebook+Singleton.m */; };
+		7E560F1615951A4F00D2D26C /* jSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E560F1515951A4F00D2D26C /* jSettingTableViewController.m */; };
 		7E6849161593727B00EE3DDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6849151593727B00EE3DDE /* UIKit.framework */; };
 		7E6849181593727B00EE3DDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6849171593727B00EE3DDE /* Foundation.framework */; };
 		7E68491A1593727B00EE3DDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6849191593727B00EE3DDE /* CoreGraphics.framework */; };
 		7E6849201593727B00EE3DDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E68491E1593727B00EE3DDE /* InfoPlist.strings */; };
 		7E6849221593727B00EE3DDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6849211593727B00EE3DDE /* main.m */; };
 		7E6849261593727B00EE3DDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6849251593727B00EE3DDE /* AppDelegate.m */; };
+		7E68492E159372EE00EE3DDE /* jAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E68492D159372EE00EE3DDE /* jAgendaViewController.m */; };
+		7E6849311593761D00EE3DDE /* NSDateFormatter+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6849301593745F00EE3DDE /* NSDateFormatter+Extension.m */; };
+		7E7178F01593A540003C6525 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7178EF1593A540003C6525 /* QuartzCore.framework */; };
+		7E7178F41593A618003C6525 /* jCustomizedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7178F31593A618003C6525 /* jCustomizedCell.m */; };
+		7E8F73821594CD7C00B19358 /* jCustomizedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F73811594CD7C00B19358 /* jCustomizedView.m */; };
+		7EC7C208159606C800C1D5EA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC7C207159606C800C1D5EA /* MapKit.framework */; };
+		7EC7C209159606E200C1D5EA /* jMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC7C205159606AA00C1D5EA /* jMapViewController.m */; };
+		7EC7C20C1596082A00C1D5EA /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC7C20A1596082100C1D5EA /* Annotation.m */; };
+		7EC7C20E1596185400C1D5EA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC7C20D1596185400C1D5EA /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E1FC91D1598BE3400B626D4 /* jCheckinsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jCheckinsViewController.h; sourceTree = "<group>"; };
+		7E1FC91E1598BE3400B626D4 /* jCheckinsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jCheckinsViewController.m; sourceTree = "<group>"; };
+		7E1FC9491598D78500B626D4 /* jTableViewControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jTableViewControllerViewController.h; sourceTree = "<group>"; };
+		7E1FC94A1598D78500B626D4 /* jTableViewControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jTableViewControllerViewController.m; sourceTree = "<group>"; };
+		7E560EDE1594F48800D2D26C /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7E560EDF1594F48800D2D26C /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7E560EE21594F50C00D2D26C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7E560EEB1594FAE400D2D26C /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		7E560EEC1594FAE400D2D26C /* Facebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
+		7E560EED1594FAE400D2D26C /* facebook_ios_sdk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = facebook_ios_sdk_Prefix.pch; sourceTree = "<group>"; };
+		7E560EEE1594FAE400D2D26C /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		7E560EEF1594FAE400D2D26C /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		7E560EF01594FAE400D2D26C /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		7E560EF11594FAE400D2D26C /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialog.m; sourceTree = "<group>"; };
+		7E560EF21594FAE400D2D26C /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		7E560EF31594FAE400D2D26C /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
+		7E560EF41594FAE400D2D26C /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		7E560EF51594FAE400D2D26C /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
+		7E560EF71594FAE400D2D26C /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		7E560EF81594FAE400D2D26C /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		7E560EF91594FAE400D2D26C /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		7E560EFA1594FAE400D2D26C /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		7E560EFB1594FAE400D2D26C /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		7E560EFC1594FAE400D2D26C /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		7E560EFD1594FAE400D2D26C /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		7E560EFE1594FAE400D2D26C /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		7E560EFF1594FAE400D2D26C /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		7E560F001594FAE400D2D26C /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		7E560F011594FAE400D2D26C /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		7E560F021594FAE400D2D26C /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		7E560F031594FAE400D2D26C /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		7E560F101594FB0800D2D26C /* SynthesizeSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		7E560F111594FB0800D2D26C /* Facebook+Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Facebook+Singleton.h"; sourceTree = "<group>"; };
+		7E560F121594FB0800D2D26C /* Facebook+Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Facebook+Singleton.m"; sourceTree = "<group>"; };
+		7E560F1415951A4E00D2D26C /* jSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jSettingTableViewController.h; sourceTree = "<group>"; };
+		7E560F1515951A4F00D2D26C /* jSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jSettingTableViewController.m; sourceTree = "<group>"; };
 		7E6849111593727B00EE3DDE /* jCalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jCalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6849151593727B00EE3DDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7E6849171593727B00EE3DDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7E6849191593727B00EE3DDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7E68491D1593727B00EE3DDE /* jCalendarView-Info.plist */ = {isa = PBXFileReference; path = "jCalendarView-Info.plist"; sourceTree = "<group>"; };
+		7E68491D1593727B00EE3DDE /* jCalendarView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jCalendarView-Info.plist"; sourceTree = "<group>"; };
 		7E68491F1593727B00EE3DDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E6849211593727B00EE3DDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7E6849231593727B00EE3DDE /* jCalendarView-Prefix.pch */ = {isa = PBXFileReference; path = "jCalendarView-Prefix.pch"; sourceTree = "<group>"; };
-		7E6849241593727B00EE3DDE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E6849231593727B00EE3DDE /* jCalendarView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jCalendarView-Prefix.pch"; sourceTree = "<group>"; };
+		7E6849241593727B00EE3DDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E6849251593727B00EE3DDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E68492C159372EE00EE3DDE /* jAgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jAgendaViewController.h; sourceTree = "<group>"; };
+		7E68492D159372EE00EE3DDE /* jAgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jAgendaViewController.m; sourceTree = "<group>"; };
+		7E68492F1593745F00EE3DDE /* NSDateFormatter+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Extension.h"; sourceTree = "<group>"; };
+		7E6849301593745F00EE3DDE /* NSDateFormatter+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Extension.m"; sourceTree = "<group>"; };
+		7E7178EF1593A540003C6525 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7E7178F21593A618003C6525 /* jCustomizedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jCustomizedCell.h; sourceTree = "<group>"; };
+		7E7178F31593A618003C6525 /* jCustomizedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jCustomizedCell.m; sourceTree = "<group>"; };
+		7E8F73801594CD7B00B19358 /* jCustomizedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jCustomizedView.h; sourceTree = "<group>"; };
+		7E8F73811594CD7C00B19358 /* jCustomizedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jCustomizedView.m; sourceTree = "<group>"; };
+		7EC7C204159606AA00C1D5EA /* jMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jMapViewController.h; sourceTree = "<group>"; };
+		7EC7C205159606AA00C1D5EA /* jMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jMapViewController.m; sourceTree = "<group>"; };
+		7EC7C207159606C800C1D5EA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7EC7C20A1596082100C1D5EA /* Annotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		7EC7C20B1596082100C1D5EA /* Annotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		7EC7C20D1596185400C1D5EA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +110,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC7C20E1596185400C1D5EA /* CoreLocation.framework in Frameworks */,
+				7EC7C208159606C800C1D5EA /* MapKit.framework in Frameworks */,
+				7E560EE31594F50C00D2D26C /* SystemConfiguration.framework in Frameworks */,
+				7E7178F01593A540003C6525 /* QuartzCore.framework in Frameworks */,
 				7E6849161593727B00EE3DDE /* UIKit.framework in Frameworks */,
 				7E6849181593727B00EE3DDE /* Foundation.framework in Frameworks */,
 				7E68491A1593727B00EE3DDE /* CoreGraphics.framework in Frameworks */,
@@ -42,9 +123,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E560EE11594F4A600D2D26C /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				7E560EDE1594F48800D2D26C /* Reachability.h */,
+				7E560EDF1594F48800D2D26C /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		7E560EE51594F9B200D2D26C /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7E6849241593727B00EE3DDE /* AppDelegate.h */,
+				7E6849251593727B00EE3DDE /* AppDelegate.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		7E560EEA1594FAE400D2D26C /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				7E560F0F1594FAF200D2D26C /* FBSingleton */,
+				7E560EEB1594FAE400D2D26C /* Facebook.h */,
+				7E560EEC1594FAE400D2D26C /* Facebook.m */,
+				7E560EED1594FAE400D2D26C /* facebook_ios_sdk_Prefix.pch */,
+				7E560EEE1594FAE400D2D26C /* FBConnect.h */,
+				7E560EEF1594FAE400D2D26C /* FBDialog.bundle */,
+				7E560EF01594FAE400D2D26C /* FBDialog.h */,
+				7E560EF11594FAE400D2D26C /* FBDialog.m */,
+				7E560EF21594FAE400D2D26C /* FBLoginDialog.h */,
+				7E560EF31594FAE400D2D26C /* FBLoginDialog.m */,
+				7E560EF41594FAE400D2D26C /* FBRequest.h */,
+				7E560EF51594FAE400D2D26C /* FBRequest.m */,
+				7E560EF61594FAE400D2D26C /* JSON */,
+			);
+			name = Facebook;
+			path = src;
+			sourceTree = "<group>";
+		};
+		7E560EF61594FAE400D2D26C /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				7E560EF71594FAE400D2D26C /* JSON.h */,
+				7E560EF81594FAE400D2D26C /* NSObject+SBJSON.h */,
+				7E560EF91594FAE400D2D26C /* NSObject+SBJSON.m */,
+				7E560EFA1594FAE400D2D26C /* NSString+SBJSON.h */,
+				7E560EFB1594FAE400D2D26C /* NSString+SBJSON.m */,
+				7E560EFC1594FAE400D2D26C /* SBJSON.h */,
+				7E560EFD1594FAE400D2D26C /* SBJSON.m */,
+				7E560EFE1594FAE400D2D26C /* SBJsonBase.h */,
+				7E560EFF1594FAE400D2D26C /* SBJsonBase.m */,
+				7E560F001594FAE400D2D26C /* SBJsonParser.h */,
+				7E560F011594FAE400D2D26C /* SBJsonParser.m */,
+				7E560F021594FAE400D2D26C /* SBJsonWriter.h */,
+				7E560F031594FAE400D2D26C /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		7E560F0F1594FAF200D2D26C /* FBSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				7E560F101594FB0800D2D26C /* SynthesizeSingleton.h */,
+				7E560F111594FB0800D2D26C /* Facebook+Singleton.h */,
+				7E560F121594FB0800D2D26C /* Facebook+Singleton.m */,
+			);
+			name = FBSingleton;
+			sourceTree = "<group>";
+		};
 		7E6849061593727B00EE3DDE = {
 			isa = PBXGroup;
 			children = (
+				7EC7C20D1596185400C1D5EA /* CoreLocation.framework */,
+				7EC7C207159606C800C1D5EA /* MapKit.framework */,
+				7E560EE21594F50C00D2D26C /* SystemConfiguration.framework */,
+				7E7178EF1593A540003C6525 /* QuartzCore.framework */,
 				7E68491B1593727B00EE3DDE /* jCalendarView */,
 				7E6849141593727B00EE3DDE /* Frameworks */,
 				7E6849121593727B00EE3DDE /* Products */,
@@ -72,8 +226,27 @@
 		7E68491B1593727B00EE3DDE /* jCalendarView */ = {
 			isa = PBXGroup;
 			children = (
-				7E6849241593727B00EE3DDE /* AppDelegate.h */,
-				7E6849251593727B00EE3DDE /* AppDelegate.m */,
+				7E560EEA1594FAE400D2D26C /* Facebook */,
+				7E560EE51594F9B200D2D26C /* Demo */,
+				7E560EE11594F4A600D2D26C /* Reachability */,
+				7E68492F1593745F00EE3DDE /* NSDateFormatter+Extension.h */,
+				7E6849301593745F00EE3DDE /* NSDateFormatter+Extension.m */,
+				7E68492C159372EE00EE3DDE /* jAgendaViewController.h */,
+				7E68492D159372EE00EE3DDE /* jAgendaViewController.m */,
+				7E1FC91D1598BE3400B626D4 /* jCheckinsViewController.h */,
+				7E1FC91E1598BE3400B626D4 /* jCheckinsViewController.m */,
+				7E1FC9491598D78500B626D4 /* jTableViewControllerViewController.h */,
+				7E1FC94A1598D78500B626D4 /* jTableViewControllerViewController.m */,
+				7E7178F21593A618003C6525 /* jCustomizedCell.h */,
+				7E7178F31593A618003C6525 /* jCustomizedCell.m */,
+				7E8F73801594CD7B00B19358 /* jCustomizedView.h */,
+				7E8F73811594CD7C00B19358 /* jCustomizedView.m */,
+				7E560F1415951A4E00D2D26C /* jSettingTableViewController.h */,
+				7E560F1515951A4F00D2D26C /* jSettingTableViewController.m */,
+				7EC7C204159606AA00C1D5EA /* jMapViewController.h */,
+				7EC7C205159606AA00C1D5EA /* jMapViewController.m */,
+				7EC7C20A1596082100C1D5EA /* Annotation.m */,
+				7EC7C20B1596082100C1D5EA /* Annotation.h */,
 				7E68491C1593727B00EE3DDE /* Supporting Files */,
 			);
 			path = jCalendarView;
@@ -141,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E6849201593727B00EE3DDE /* InfoPlist.strings in Resources */,
+				7E560F051594FAE400D2D26C /* FBDialog.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,8 +325,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1FC94B1598D8B900B626D4 /* jTableViewControllerViewController.m in Sources */,
+				7EC7C20C1596082A00C1D5EA /* Annotation.m in Sources */,
+				7EC7C209159606E200C1D5EA /* jMapViewController.m in Sources */,
+				7E560F131594FB1C00D2D26C /* Facebook+Singleton.m in Sources */,
+				7E560EE41594F52000D2D26C /* Reachability.m in Sources */,
+				7E6849311593761D00EE3DDE /* NSDateFormatter+Extension.m in Sources */,
 				7E6849221593727B00EE3DDE /* main.m in Sources */,
 				7E6849261593727B00EE3DDE /* AppDelegate.m in Sources */,
+				7E68492E159372EE00EE3DDE /* jAgendaViewController.m in Sources */,
+				7E7178F41593A618003C6525 /* jCustomizedCell.m in Sources */,
+				7E8F73821594CD7C00B19358 /* jCustomizedView.m in Sources */,
+				7E560F041594FAE400D2D26C /* Facebook.m in Sources */,
+				7E560F061594FAE400D2D26C /* FBDialog.m in Sources */,
+				7E560F071594FAE400D2D26C /* FBLoginDialog.m in Sources */,
+				7E560F081594FAE400D2D26C /* FBRequest.m in Sources */,
+				7E560F091594FAE400D2D26C /* NSObject+SBJSON.m in Sources */,
+				7E560F0A1594FAE400D2D26C /* NSString+SBJSON.m in Sources */,
+				7E560F0B1594FAE400D2D26C /* SBJSON.m in Sources */,
+				7E560F0C1594FAE400D2D26C /* SBJsonBase.m in Sources */,
+				7E560F0D1594FAE400D2D26C /* SBJsonParser.m in Sources */,
+				7E560F0E1594FAE400D2D26C /* SBJsonWriter.m in Sources */,
+				7E560F1615951A4F00D2D26C /* jSettingTableViewController.m in Sources */,
+				7E1FC91F1598BE3400B626D4 /* jCheckinsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +449,7 @@
 				7E68492B1593727B00EE3DDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

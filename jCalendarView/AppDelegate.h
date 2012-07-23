@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Facebook+Singleton.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic , retain) UINavigationController * navController;
+
+- (NSMutableArray*) loadDataFromDisk;
+- (NSMutableArray*) loadOfflineDataFromDisk;
+
+
+- (void) saveOfflineDataToDisk:(NSMutableArray*)array;
+- (void) saveDataToDisk:(NSMutableArray*)array;
 
 @end
