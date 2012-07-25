@@ -454,7 +454,7 @@
     toolBar = [[UIToolbar alloc]init];    
     [toolBar setFrame:CGRectMake(0.0f, nvFrame.size.height - IPHONE_TOOLBAR_HEIGHT, 320, IPHONE_TOOLBAR_HEIGHT)];
     NSLog(@"%@",NSStringFromCGRect(toolBar.frame));
-    UIBarButtonItem * nowItem = [[UIBarButtonItem alloc]initWithTitle:[NSString stringWithFormat:@"%@",[NSDateFormatter buttonTitleStringFromDate:self.currentDate]] style:UIBarButtonItemStyleBordered target:self action:@selector(today)];
+    UIBarButtonItem * nowItem = [[UIBarButtonItem alloc]initWithTitle:@"Today" style:UIBarButtonItemStyleBordered target:self action:@selector(today)];
 
     UIBarButtonItem * previousItem = [[UIBarButtonItem alloc]initWithTitle:@"-" style:UIBarButtonItemStyleBordered target:self action:@selector(previousMonth)];
     UIBarButtonItem * nextItem = [[UIBarButtonItem alloc]initWithTitle:@"+" style:UIBarButtonItemStyleBordered target:self action:@selector(nextMonth)];

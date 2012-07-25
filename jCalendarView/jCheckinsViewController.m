@@ -19,6 +19,11 @@
     NSMutableArray * savedArray; 
     
     NSMutableDictionary * newCheckinsPlace;
+    
+    UITextField * nameField;
+    UITextField * messageField;
+
+    
 }
 @end
 
@@ -97,18 +102,21 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        UITextField * nameField  = [[UITextField alloc]initWithFrame:CGRectMake(0.0f, 0.0f, 280.0f, 24.0f)];
+        nameField  = [[UITextField alloc]initWithFrame:CGRectMake(0.0f, 0.0f, 280.0f, 24.0f)];
         nameField.frame = CGRectOffset(nameField.frame, 20.0f, 40.0f);
         nameField.layer.borderWidth = 1.0f;
         nameField.layer.borderColor = [[UIColor grayColor]CGColor];
         nameField.delegate = self;
+        nameField.returnKeyType = UIReturnKeyNext;
         
-        UITextView * messageField = [[UITextView alloc]initWithFrame:CGRectMake(0.0f, 0.0f, 280.0f, 80.0f)];
+        messageField = [[UITextField alloc]initWithFrame:CGRectMake(0.0f, 0.0f, 280.0f, 80.0f)];
         messageField.frame = CGRectOffset(messageField.frame, 20.0f,84.0f);
         messageField.backgroundColor = [UIColor whiteColor];
-        messageField.layer.borderWidth = 2.0f;
+        messageField.layer.borderWidth = 1.0f;
         messageField.layer.borderColor = [[UIColor grayColor]CGColor];
         messageField.delegate = self;
+        messageField.returnKeyType = UIReturnKeyDone;
+
 
         mapView = [[MKMapView alloc]initWithFrame:CGRectMake(0.0f, 0.0f, 280.0f, 280.0f)];
         mapView.frame = CGRectOffset(mapView.frame, 20.0f, 184.0f);
@@ -173,19 +181,24 @@
 
 - (void)textFieldDidEndEditing:(UITextField *)textField
 {           
-    // may be called if forced even if shouldEndEditing returns NO (e.g. view removed from window) or endEditing:YES called
-    [newCheckinsPlace setObject:textField.text forKey:@"place_name"];
+    if (textField == nameField)  [newCheckinsPlace setObject:textField.text forKey:@"place_name"];
+    if (textField == messageField) [newCheckinsPlace setObject:textField.text forKey:@"place_message"];
     NSLog(@"newCheckinsPlace%@",newCheckinsPlace);
 }
 
-#pragma mark - UITextViewDelegate
-
-- (void)textViewDidEndEditing:(UITextView *)textView
+- (BOOL) textFieldShouldReturn:(UITextField *)textField
 {
-    [newCheckinsPlace setObject:textView.text forKey:@"place_message"];
-    NSLog(@"newCheckinsPlace%@",newCheckinsPlace);
-
+    [textField resignFirstResponder];
+    return YES;
 }
+- (BOOL) textFieldShouldEndEditing:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+
+    return YES;
+}
+
+
 
 #pragma mark - MKMapDelegate Method
 
